@@ -90,7 +90,6 @@ struct ContentView: View {
                 
             }}
     }
-
     func flagTapped(_ number: Int) {
         selectedFlag = number
         if number == correctAnswer {
